@@ -69,12 +69,12 @@
                 autofocus
               />
               <input
-                type="number"
+                type="text"
                 value=""
                 name="edad"
-                class="input-style  input-edad w-100"
-                id="edad"
-                placeholder="EDAD"
+                class="input-style  w-100"
+                id="localidad"
+                placeholder="LOCALIDAD"
                 required
               />
 
@@ -86,7 +86,7 @@
                   <label class="style-radio">
                     <input type="radio" name="sexo" value="FEMENINO" required />
                     <span class="radio">.</span>
-                    <span class="text-sexo">SI</span>
+                    <span class="text-check">SI</span>
                   </label>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -98,10 +98,19 @@
                       required
                     />
                     <span class="radio">.</span>
-                    <span class="text-sexo">NO</span>
+                    <span class="text-check">NO</span>
                   </label>
                 </div>
               </div>
+              <input
+                type="tel"
+                value=""
+                name="telefono"
+                class="input-style w-100"
+                id="codigo"
+                placeholder="CÓDIGO BACKUS"
+                required
+              />
               <input
                 type="email"
                 value=""
@@ -109,15 +118,6 @@
                 class="input-style w-100"
                 id="email"
                 placeholder="EMAIL"
-                required
-              />
-              <input
-                type="tel"
-                value=""
-                name="telefono"
-                class="input-style w-100"
-                id="telefono"
-                placeholder="TELÉFONO"
                 required
               />
             </div>
@@ -133,13 +133,85 @@
               </button>
             </div>
           </div>
-        </form>
-        <div class="box-selecciona">
-            <img src="./img/linea3.svg" alt="" class="linea3">
+          <div class="box-selecciona">
+            <img src="./img/linea3.svg" alt="" class="linea3" />
             <p class="p-selecciona">SELECCIONA LA FECHA Y HORA</p>
-            <img src="./img/linea3.svg" alt="" class="linea3">
-        </div>
-
+            <img src="./img/linea3.svg" alt="" class="linea3" />
+          </div>
+          <div class="box-dias">
+            <div class="box-lunes">
+              <div>
+                <p class="lunes">LUNES 24 DE AGOSTO</p>
+                <label class="">
+                  <span class="text-check">10:00 AM - 11:00 AM</span>
+                  <input
+                    type="radio"
+                    name="lunes1"
+                    value="10:00am-11:00am"
+                    required
+                  />
+                </label><br>
+                <label class="">
+                  <span class="text-check">3:00 PM - 4:00 PM</span>
+                  <input
+                    type="radio"
+                    name="lunes1"
+                    value="10:00am-11:00am"
+                    required
+                  />
+                </label>
+              </div>
+              <img src="./img/linea4.svg" alt="" class="linea4" />
+            </div>
+            <div class="box-lunes">
+              <div>
+                <p class="lunes">MARTES 25 DE AGOSTO</p>
+                <label class="">
+                  <span class="text-check">10:00 AM - 11:00 AM</span>
+                  <input
+                    type="radio"
+                    name="lunes1"
+                    value="10:00am-11:00am"
+                    required
+                  />
+                </label><br>
+                <label class="">
+                  <span class="text-check">3:00 PM - 4:00 PM</span>
+                  <input
+                    type="radio"
+                    name="lunes1"
+                    value="10:00am-11:00am"
+                    required
+                  />
+                </label>
+              </div>
+              <img src="./img/linea4.svg" alt="" class="linea4" />
+            </div>
+            <div class="box-lunes">
+              <div>
+                <p class="lunes">MIÉRCOLES 26 DE AGOSTO</p>
+                <label class="">
+                  <span class="text-check">10:00 AM - 11:00 AM</span>
+                  <input
+                    type="radio"
+                    name="lunes1"
+                    value="10:00am-11:00am"
+                    required
+                  />
+                </label><br>
+                <label class="">
+                  <span class="text-check">3:00 PM - 4:00 PM</span>
+                  <input
+                    type="radio"
+                    name="lunes1"
+                    value="10:00am-11:00am"
+                    required
+                  />
+                </label>
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
     </main>
   </body>
