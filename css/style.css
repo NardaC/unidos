@@ -115,7 +115,7 @@ img {
 
 .box-input input {
     margin: auto;
-    margin-top: 0.7rem;
+    margin-top: 0.9rem;
     height: 2.88rem;
     cursor: pointer;
 }
@@ -326,7 +326,7 @@ label {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 0.5rem;
+    margin-top: 0.9rem;
     padding: 0.5rem 0rem;
     border: 0.15rem solid #A99354;
 }
@@ -353,7 +353,9 @@ label {
 }
 
 .linea4 {
-    width: 5%
+    width: 0.5%;
+    position: absolute;
+    padding-left: 14rem
 }
 
 .box-lunes {
@@ -363,21 +365,12 @@ label {
 label {
   margin-bottom: 0 !important;
 }
-.box-check-soy {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-top: 0.5rem;
-  padding: 0.5rem 0rem;
-  border: 0.15rem solid #A99354;
-}
 
 
 .div-button {
     text-align: center;
-    margin-top: 2.5rem;
-    margin-bottom: 3.04rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   .button-registrar {
@@ -393,15 +386,16 @@ label {
   }
   .button-registrar:hover{
     border: none;
-    transform: scale(1.1)
+    transform: scale(1.04);
   }
+  
 
 .box-dias{
     display: flex;
     margin-top: 3rem;
     text-align: right;
     justify-content: space-between;
-    align-items: center
+   margin-bottom: 4rem
 }
 
 .lunes {
@@ -422,4 +416,156 @@ label {
     font-weight: 600;
     font-size: 1.22rem;
     line-height: 1.77rem
+}
+button{
+    background: none
+}
+
+
+.footer{
+    margin-bottom: 2rem
+}
+
+
+
+@media (max-width: 768px) {
+    main {
+        width: 80%;
+        margin: auto;
+        background: #fff;
+    }
+
+    .linea4{
+        width: 1%;
+        padding-left: 21rem
+    }
+    .footer{
+        margin-bottom: 1rem
+    }
+}
+
+
+@media (max-width: 360px) {
+    html {
+      font-size: 4.6vw;
+    }
+
+    main {
+        width: 100%;
+        margin: auto;
+        background: #fff;
+    }
+
+    .box-text {
+        margin-top: 1.2rem;
+        margin-left: 2.6rem;
+        margin-right: 2.6rem;
+    }
+    .p-red{
+        font-size: .97rem;
+        line-height: 1rem
+    }
+    .linea1{
+        margin-top: 2rem;
+        padding-bottom: 1rem
+    }
+    .otter {
+        margin-top: 1rem;
+    }
+    .box-ponente{
+        flex-direction: column
+    }
+
+    .ponente {
+        width: 6.22rem;
+        margin: auto
+    }
+
+    .p-nombre {
+        font-size: .97rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    
+    .p-gerente {
+        font-size: .97rem;
+        text-align: center;
+    }
+    
+    .linea2 {
+        width: 80%;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .fundador {
+        font-size: .97rem;
+        line-height: 1rem;
+        padding-left: 0rem;
+        text-align: center
+    }
+    .text-fundador{
+        width: 100%
+    }
+    .input-style{
+        font-size: .97rem
+    }
+
+    .box-input input{
+        height: 1.63rem;
+    }
+
+    .letra-soy{
+        font-size: .97rem
+    }
+    .style-radio .text-check{
+        font-size: .97rem
+    }
+    .p-selecciona{
+        font-size: 1.15rem;
+        text-align: center;
+        padding-left: .6rem;
+        padding-right: .6rem
+
+    }
+    .box-selecciona{
+        margin-left: 2.1rem;
+        margin-right: 2.1rem
+    }
+    .box-input input, .box-check-soy{
+        margin-top: .5rem
+    }
+    .linea3{
+        width: 15%
+    }
+
+    .box-dias{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: -1.5rem
+    }
+    .button-registrar{
+        width: 80%
+    }
+
+    .box-lunes{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem
+    }
+    .lunes, .text-check-red{
+        font-size: 1rem
+    }
+    .linea4{
+        transform: rotate(90deg);
+        width: 2%;
+        padding-left: 8rem
+    }
+
+
+
+    .footer{
+        margin-bottom: 0rem
+    }
 }
