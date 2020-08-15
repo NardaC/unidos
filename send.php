@@ -101,22 +101,19 @@ echo '<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Refresh" content="4;url=https://www.henribarrett.com/conversatorio">
-    <link  rel="icon"   href="img/favicon.jpeg" type="image/jpeg" />
-    <title>Estas Registrado</title>
+    <meta http-equiv="Refresh" content="4;url=https://www.henribarrett.com/unidos-en-la-mesa">
+    <link  rel="icon"   href="img/fav1.jpg" type="image/jpg" />
+    <title>Estás Registrado</title>
     <style>
         body {
             padding: 0;
             margin: 0;
         }
         @font-face {
-            font-family: "edos";
-            src: url("css/fonts/EDOSZ.TTF");
+            font-family: "hudson";
+            src: url("css/fonts/HUDSON\ NY\ SERIF.TTF");
         }
-        @font-face {
-            font-family: "gotham";
-            src: url("css/fonts/Gotham-Bold.otf");
-        }
+       
         * {
             box-sizing: border-box;
         }
@@ -126,19 +123,19 @@ echo '<!DOCTYPE html>
         section {
             width: 100vw;
             height: 100vh;
-            background: #000
+            background: ##E5E5E5;
         }
         .pop-up {
             width: 35.74rem;
             height: 26.04rem;
-            background-image: url("img/ventana_emergente.png");
+            background:#fff;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%)
         }
         h1 {
-            font-family: "edos";
+            font-family: "hudson";
             width: 26.09rem;
             font-size: 3.88rem;
             text-align: center;
@@ -151,8 +148,8 @@ echo '<!DOCTYPE html>
             margin: 0rem auto;
         }
         h2 {
-            font-family: "gotham";
-            color: #fff;
+            font-family: "hudson";
+            color: #9C252D;
             text-transform: uppercase;
             text-align: center;
             width: 27.09rem;
@@ -183,7 +180,7 @@ echo '<!DOCTYPE html>
                 ¡gracias
                 por participar!
             </h1>
-            <img src="img/linea.svg" alt="">
+            <img src="img/linea1.svg" alt="">
             <h2>En breve le llegará una confirmación a su correo.</h2>
         </div>
     </section>
