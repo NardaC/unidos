@@ -196,25 +196,6 @@ input:focus {
     width: 0;
 }
 
-.style-radio .radio {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    display: inline-block;
-    position: relative;
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
-    margin-right: 5px;
-    border: 0.2rem solid #A99354;
-    background-color: #ffffff;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    outline: none;
-    box-sizing: border-box;
-    transition: 0.5s all;
-    color: #fff;
-}
 
 .style-radio:hover .radio {
     background-color: #f9f9f9;
@@ -464,6 +445,80 @@ button{
 
 .footer{
     margin-bottom: 2rem
+}
+
+.style-radio .radio {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 0.2rem solid #A99354;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.5s all;
+    color: #fff;
+}
+
+.style-radio:hover .radio-red {
+    background-color: #f9f9f9;
+    box-shadow: inset 1px 2px 3px 0 #9C252D;
+}
+
+.style-radio input:checked+.radio-red {
+    border-color: #9C252D;
+    background-color: #f9f9f9;
+    box-shadow: inset 1px 2px 3px 0 #9C252D;
+    cursor: default;
+}
+
+.style-radio:hover .radio-red::before,
+.style-radio input:checked+.radio-red::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #ddd;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.style-radio input:checked+.radio-red::before {
+    background-color: #9C252D;
+    box-shadow: 1px 2px 2px 0 #9C252D;
+}
+
+.style-radio input+.radio-red+.text {
+    color: #9C252D;
+    cursor: pointer;
+    align-self: center;
+}
+
+.style-radio input+.radio-red+.text-check {
+    color: #9C252D;
+    cursor: pointer;
+    align-self: center;
+    align-self: center;
+    padding: 0rem 0.5rem;
+}
+
+.style-radio input:checked+.radio-red+.text {
+    color: #9C252D;
+    cursor: default;
+}
+
+.style-radio input:checked+.radio-red+.text-check {
+    color: #9C252D;
+    cursor: default;
 }
 
 .mr-2{
