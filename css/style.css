@@ -1,0 +1,57 @@
+html {
+    font-size: 0.94vw;
+  }
+
+body{
+    background: #E2E3E5;
+}
+
+@font-face {
+	font-family: "hudson";
+	src: url("./fonts/HUDSON\ NY\ SERIF.TTF");
+}
+
+@font-face {
+	font-family: "chypre-cond";
+	src: url("./fonts/INSIGNE\ -\ CHYPRE\ COND\ REGULAR.OTF");
+}
+
+@font-face {
+	font-family: "chypre-norm";
+	src: url("./fonts/INSIGNE\ -\ CHYPRE\ NORM\ BLACK.OTF");
+}
+
+
+main{
+    width: 56.5%;
+    margin: auto;
+    background: #fff
+
+}
+figure, img{
+    width: 100%
+}
+
+.box-text{
+    margin-top: 4.15rem;
+    margin-left: 6.81rem;
+    margin-right: 6.81rem;
+}
+.p-red{
+    font-family: "hudson";
+    color: #9C252D;
+    text-align: center;
+    font-size: 1.66rem;
+    line-height: 2.21rem
+}
+.otter{
+    margin-top: 2rem
+}
+
+.linea1{
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2.5rem;
+    padding-bottom: 2.5rem
+}
