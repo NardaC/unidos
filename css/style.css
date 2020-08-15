@@ -402,7 +402,7 @@ label {
   }
   
 
-.box-dias{
+.box-days{
     display: flex;
     margin-top: 3rem;
     text-align: right;
@@ -575,19 +575,21 @@ button{
         width: 15%
     }
 
-    .box-dias{
+    .box-days{
         flex-direction: column;
         text-align: center;
-        margin-bottom: -1.5rem
+        margin-bottom: -1rem;
+        margin-top: 1rem
     }
     .button-registrar{
         width: 80%
     }
 
-    .box-lunes{
+    .box-day{
         justify-content: center;
         align-items: center;
-        margin-bottom: 2rem
+        margin-bottom: 2rem;
+        width: 100%
     }
     .lunes, .text-check-red{
         font-size: 1rem
@@ -597,8 +599,14 @@ button{
         width: 2%;
         padding-left: 8rem
     }
-
-
+    .padding-day{
+        padding: 0rem
+    }
+    .div-button {
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+      }
 
     .footer{
         margin-bottom: 0rem
