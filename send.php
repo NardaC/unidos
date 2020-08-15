@@ -57,22 +57,22 @@ $user_email = $_POST['email'];
 $subject1 = 'Protocolos de reactivación - Unidos en la mesa';
 $subject2 = 'JUNTOS EN ESTA NUEVA ERA';
 
-$message1 = '  <table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
+$message1 = '  <table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: white;">
 <tr>
     <td style=" text-align: left; padding-top: 2rem;">
-            <img width="70%" style="display:block; margin: auto" src="https://henribarrett.com/unidos-en-la-mesa/banner1.png">
+            <img width="85%" style="display:block; margin: auto" src="https://henribarrett.com/unidos-en-la-mesa/banner1.png">
     </td>
 </tr>
 
 <tr>
     <td style="">
         <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
-            <h2 style="color: #c4a330; text-align: center;">¡Hola ' . $_POST['name'] . '  Confirmamos tu  participación!</h2>
-            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic;">
+            <h2 style="color: #9C252D; text-align: center;">¡Hola ' . $_POST['name'] . '  Confirmamos tu  participación!</h2>
+            <p style="text-align: center; font-size: 0.8rem; color:#A99354; font-weight: 700;font-style: italic;">
                 Pronto nos estaremos comunicando contigo para enviarte el link del evento.
             </p>
         
-            <p style="text-align: center; font-size: 0.7rem; color:white; font-weight: 700;font-style: italic;">
+            <p style="text-align: center; font-size: 0.7rem; color:#A99354; font-weight: 700;font-style: italic;">
                 Para mas información puedes escribir a <a href="mailto:hola@henribarrett.com">hola@henribarrett.com</a> o a través de nuestras redes sociales.
             </p>
             <hr>
@@ -82,7 +82,7 @@ $message1 = '  <table style="max-width: 600px; padding: 10px; margin:0 auto; bor
     
 <tr>
     <td style="padding-bottom: 2rem;">
-        <img style="padding: 0; display: block; margin: auto;" src="https://henribarrett.com/unidos-en-la-mesa/footer.png" width="50%">
+        <img style="padding: 0; display: block; margin: auto;" src="https://henribarrett.com/unidos-en-la-mesa/footer.png" width="85%">
     </td>
 </tr>
 
