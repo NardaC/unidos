@@ -1,117 +1,126 @@
 html {
     font-size: 0.94vw;
-  }
-  
-  body {
+}
+
+body {
     background: #e2e3e5;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "hudson";
     src: url("./fonts/HUDSON\ NY\ SERIF.TTF");
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "chypre-cond";
     src: url("./fonts/INSIGNE\ -\ CHYPRE\ COND\ REGULAR.OTF");
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: "chypre-norm";
     src: url("./fonts/INSIGNE\ -\ CHYPRE\ NORM\ BLACK.OTF");
-  }
-  
-  main {
+}
+
+main {
     width: 56.5%;
     margin: auto;
     background: #fff;
-  }
-  figure,
-  img {
+}
+
+figure,
+img {
     width: 100%;
-  }
-  
-  .box-text {
+}
+
+.box-text {
     margin-top: 4.15rem;
     margin-left: 6.81rem;
     margin-right: 6.81rem;
-  }
-  .p-red {
+}
+
+.p-red {
     font-family: "hudson";
     color: #9c252d;
     text-align: center;
     font-size: 1.66rem;
     line-height: 2.21rem;
-  }
-  .otter {
+}
+
+.otter {
     margin-top: 2rem;
-  }
-  
-  .linea1 {
+}
+
+.linea1 {
     width: 30%;
     margin: 0 auto;
     display: block;
     margin-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
-  
-  .ponente {
+}
+
+.ponente {
     width: 17.01rem;
     height: auto;
-  }
-  .ponente img {
+}
+
+.ponente img {
     width: 100%;
-  }
-  .box-ponente {
+}
+
+.box-ponente {
     display: flex;
-  }
-  .p-nombre {
+}
+
+.p-nombre {
     font-size: 1.77rem;
     color: #a99354;
     font-family: "hudson";
     line-height: 2rem;
     text-align: right;
-  }
-  
-  .p-gerente {
+}
+
+.p-gerente {
     font-size: 1.21rem;
     color: #9c252d;
     font-family: "hudson";
     text-align: right;
-  }
-  
-  .linea2 {
+}
+
+.linea2 {
     width: 90%;
     margin-left: 5.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-  }
-  
-  .fundador {
+}
+
+.fundador {
     font-family: "hudson";
     color: #a99354;
     font-size: 2.05rem;
     line-height: 2.38rem;
     padding-left: 5.5rem;
-  }
-  .text-fundador {
+}
+
+.text-fundador {
     width: 28.2rem;
-  }
-  
-  /*input */
-  
-  .box-input {
+}
+
+/*input */
+
+.box-input {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
-  }
-  .box-input input {
+}
+
+.box-input input {
     margin: auto;
     margin-top: 0.7rem;
     height: 2.88rem;
     cursor: pointer;
-  }
-  .input-style {
+}
+
+.input-style {
     -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
     width: 100%;
@@ -135,54 +144,59 @@ html {
     line-height: 2.05rem;
     padding: 1px 0px;
     border: 0.15rem solid #A99354;
-  }
-  
-  ::-webkit-input-placeholder {
+}
+
+::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
     color: #A99354;
-  }
-  :-moz-placeholder {
+}
+
+:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
     color: #A99354;
-    opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
-  }
-  ::-moz-placeholder {
+    opacity: 1
+        /* esto es porque Firefox le reduce la opacidad por defecto */
+    ;
+}
+
+::-moz-placeholder {
     /* Mozilla Firefox 19+ */
     color: #A99354;
-  }
-  :-ms-input-placeholder {
+}
+
+:-ms-input-placeholder {
     /* Internet Explorer 10-11 */
     color: #A99354;
-  }
-  
-  input:focus {
+}
+
+input:focus {
     outline: none;
     /* border:0.2rem solid black; */
     box-shadow: 3px 3px 3px 2px black;
-  }
-  
-  .formulario {
+}
+
+.formulario {
     width: 100%;
     margin: auto;
-  }
-  
-  .style-radio {
+}
+
+.style-radio {
     height: 28px;
     display: flex;
     align-items: center;
-      justify-content: center;
-      flex-direction: row-reverse;
-  }
-  
-  .style-radio input {
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.style-radio input {
     position: absolute;
     opacity: 0;
     display: block;
     height: 0;
     width: 0;
-  }
-  
-  .style-radio .radio {
+}
+
+.style-radio .radio {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -200,20 +214,22 @@ html {
     box-sizing: border-box;
     transition: 0.5s all;
     color: #fff;
-  }
-  .style-radio:hover .radio {
+}
+
+.style-radio:hover .radio {
     background-color: #f9f9f9;
     box-shadow: inset 1px 2px 3px 0 rgba(221, 115, 29, 0.534);
-  }
-  
-  .style-radio input:checked + .radio {
+}
+
+.style-radio input:checked+.radio {
     border-color: #A99354;
     background-color: #f9f9f9;
     box-shadow: inset 1px 2px 3px 0 #A99354;
     cursor: default;
-  }
-  .style-radio:hover .radio::before,
-  .style-radio input:checked + .radio::before {
+}
+
+.style-radio:hover .radio::before,
+.style-radio input:checked+.radio::before {
     content: "";
     position: absolute;
     width: 8px;
@@ -223,82 +239,89 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .style-radio input:checked + .radio::before {
+}
+
+.style-radio input:checked+.radio::before {
     background-color: rgb(196, 163, 48);
     box-shadow: 1px 2px 2px 0 rgb(196, 163, 48);
-  }
-  .style-radio input + .radio + .text {
+}
+
+.style-radio input+.radio+.text {
     color: #A99354;
     cursor: pointer;
     align-self: center;
-  }
-  .style-radio input + .radio + .text-check {
+}
+
+.style-radio input+.radio+.text-check {
     color: #A99354;
     cursor: pointer;
     align-self: center;
-      align-self: center;
-      padding: 0rem 0.5rem;
-  }
-  
-  .style-radio input:checked + .radio + .text {
+    align-self: center;
+    padding: 0rem 0.5rem;
+}
+
+.style-radio input:checked+.radio+.text {
     color: rgb(196, 163, 48);
     cursor: default;
-  }
-  .style-radio input:checked + .radio + .text-check {
+}
+
+.style-radio input:checked+.radio+.text-check {
     color: rgb(196, 163, 48);
     cursor: default;
-  }
-  .style-radio .text {
+}
+
+.style-radio .text {
     color: #A99354;
     cursor: pointer;
     /* margin-right: 10px; */
-     font-family: "hudson";
+    font-family: "hudson";
     font-style: normal;
     /* font-weight: bold; */
     font-size: 1.18rem;
     line-height: 2.05rem;
-  }
-  
-  .style-radio .text-check {
+}
+
+.style-radio .text-check {
     color: #A99354;
     cursor: pointer;
     /* margin-right: 10px; */
-     font-family: "hudson";
+    font-family: "hudson";
     font-style: normal;
     /* font-weight: bold; */
     font-size: 1.5rem;
     line-height: 2.05rem;
-  }
-  
-  .letter-register {
-     font-family: "hudson";
+}
+
+.letter-register {
+    font-family: "hudson";
     font-style: normal;
     /* font-weight: bold; */
     font-size: 1.25rem;
     line-height: 2.05rem;
     color: rgb(196, 163, 48);
-  }
-  .letra-soy {
-     font-family: "hudson";
+}
+
+.letra-soy {
+    font-family: "hudson";
     font-style: normal;
     color: #A99354;
     font-size: 1.5rem;
     padding-left: 1.5rem;
     padding-right: 1rem;
     text-align: center;
-  }
-  
-  .box-radio {
+}
+
+.box-radio {
     margin-top: 0.7rem;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border: 0.15rem solid #A99354;
-  }
-  
-  label {
+}
+
+label {
     margin-bottom: 0 !important;
-  }
-  .box-check-soy {
+}
+
+.box-check-soy {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -306,40 +329,56 @@ html {
     margin-top: 0.5rem;
     padding: 0.5rem 0rem;
     border: 0.15rem solid #A99354;
-  }
+}
 
-.box-selecciona{
+.box-selecciona {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center
 }
 
-.linea3{
-  width: 8%
+.linea3 {
+    width: 8%
 }
 
-.p-selecciona{
+.p-selecciona {
     color: #A99354;
     font-size: 2.21rem;
     font-family: "hudson";
     padding-left: 1.5rem;
     padding-right: 1.5rem
 }
-.linea4{
-    width: 10%
+
+.linea4 {
+    width: 5%
 }
 
-.box-lunes{
+.box-lunes {
     display: flex
 }
 
-.box-dias{
+.box-dias {
     display: flex;
-    margin-top: 3rem
+    margin-top: 3rem;
+    text-align: right
 }
-.lunes{
-font-family: "chypre-cond";
-color:#9C252D;
-font-size: 1.22rem
+
+.lunes {
+    font-family: "chypre-cond";
+    color: #9C252D;
+    font-size: 1.22rem;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.77rem;
+    margin-bottom: .5rem
+}
+
+.text-check-red {
+    color: #9C252D;
+    font-family: "chypre-cond";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.22rem;
+    line-height: 1.77rem
 }
