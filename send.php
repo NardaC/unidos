@@ -92,42 +92,8 @@ $message1 = '  <table style="max-width: 600px; padding: 10px; margin:0 auto; bor
 </tr>
 
 </table>';
-$message3 = '  <table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: black;">
-<tr>
-    <td style=" text-align: left; padding-top: 2rem;">
-            <img width="70%" style="display:block; margin: auto" src="https://www.henribarrett.com/banner-mail.png">
-    </td>
-</tr>
 
-<tr>
-    <td style="">
-        <div style="color: #34495e; margin: 4% 10% 2%; text-align: justify;font-family: sans-serif">
-            <h2 style="color: #c4a330; text-align: center;">¡Hola ' . $_POST['name'] . '  Confirmamos tu  participación!</h2>
-            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic;">
-                ESTE MARTES 09 DE JUNIO A LAS 5:30 P.M. PODRÁS ACCEDER AL CONVERSATORIO DÁNDOLE CLICK A ESTE BOTÓN. 
-            </p>
-            <div style="width: 100%; text-align: center;margin-top: 2rem; margin-bottom: 2rem;">
-            <a style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #c4a330;font-weight: 800;" href="meet.google.com/psn-qotq-owa">ÚNETE AQUÍ</a>	
-            </div>
-            <p style="text-align: center; font-size: 0.8rem; color:white; font-weight: 700;font-style: italic;">
-                Este conversatorio se realizará a través de Google Meet, recomendamos ingresar unos minutos antes para probar Audio. Esperamos contar con tu presencia. 
-            </p>
-            <p style="text-align: center; font-size: 0.7rem; color:white; font-weight: 700;font-style: italic;">
-                Para mas información puedes escribir a <a href="mailto:hola@henribarrett.com">hola@henribarrett.com</a> o a través de nuestras redes sociales.
-            </p>
-            <hr>
-        </div>
-    </td>
-</tr>
-    
-<tr>
-    <td style="padding-bottom: 2rem;">
-        <img style="padding: 0; display: block; margin: auto;" src="https://www.henribarrett.com/hb-logo.png" width="50%">
-    </td>
-</tr>
-
-</table>';
-$message2 = '<div> <h3>Hay una persona que se ha registrado a UNIDOS SALIMOS DE ESTA.</h3><table> <tr><td>Nombre: </td><td>' . $_POST['name'] . '</td></tr><tr><td>Email: </td><td>' . $_POST['email'] . '</td></tr><tr><td>Teléfono: </td><td>' . $_POST['telefono'] . '</td></tr><tr><td>Edad: </td><td>' . $_POST['edad'] . '</td></tr><tr><td>Sexo: </td><td>' . $_POST['sexo'] . '</td></tr><tr><td>Ocupación: </td><td>' . $_POST['ocupacion'] . '</td></tr></table></div>';
+$message2 = '<div> <h3>Hay una persona que se ha registrado a UNIDOS SALIMOS DE ESTA.</h3><table> <tr><td>Nombre: </td><td>' . $_POST['name'] . '</td></tr><tr><td>Email: </td><td>' . $_POST['email'] . '</td></tr><tr><td>Localidad: </td><td>' . $_POST['localidad'] . '</td></tr><tr><td>Cliente Backus: </td><td>' . $_POST['cliente'] . '</td></tr><tr><td>Código: </td><td>' . $_POST['codigo'] . '</td></tr><tr><td>Horario elegido: </td><td>' . $_POST['10:00am-11:00am'] . '</td></tr></table></div>';
 
 
 echo '<!DOCTYPE html>

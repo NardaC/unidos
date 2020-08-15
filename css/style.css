@@ -358,8 +358,19 @@ label {
     padding-left: 14rem
 }
 
-.box-lunes {
-    display: flex
+.box-days {
+    display: flex;
+    width:100%;
+    margin-top: 1.5rem;
+}
+.box-day{
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+
+}
+.padding-day{
+    padding: 1.5rem;
 }
 
 label {
@@ -417,6 +428,27 @@ label {
     font-size: 1.22rem;
     line-height: 1.77rem
 }
+
+.style-radio .radio-red {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 0.2rem solid #9C252D;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.5s all;
+    color: #fff;
+}
+
 button{
     background: none
 }
