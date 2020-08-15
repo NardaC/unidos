@@ -93,7 +93,7 @@ $message1 = '  <table style="max-width: 600px; padding: 10px; margin:0 auto; bor
 
 </table>';
 
-$message2 = '<div> <h3>Hay una persona que se ha registrado a UNIDOS SALIMOS DE ESTA.</h3><table> <tr><td>Nombre: </td><td>' . $_POST['name'] . '</td></tr><tr><td>Email: </td><td>' . $_POST['email'] . '</td></tr><tr><td>Localidad: </td><td>' . $_POST['localidad'] . '</td></tr><tr><td>Cliente Backus: </td><td>' . $_POST['cliente'] . '</td></tr><tr><td>Código: </td><td>' . $_POST['codigo'] . '</td></tr><tr><td>Horario elegido: </td><td>' . $_POST['10:00am-11:00am'] . '</td></tr></table></div>';
+$message2 = '<div> <h3>Hay una persona que se ha registrado protocolos de reactivación - Unidos en la mesa.</h3><table> <tr><td>Nombre: </td><td>' . $_POST['name'] . '</td></tr><tr><td>Email: </td><td>' . $_POST['email'] . '</td></tr><tr><td>Localidad: </td><td>' . $_POST['localidad'] . '</td></tr><tr><td>Cliente Backus: </td><td>' . $_POST['cliente'] . '</td></tr><tr><td>Código: </td><td>' . $_POST['codigo'] . '</td></tr><tr><td>Horario elegido: </td><td>' . $_POST['lunes1'] . '</td></tr></table></div>';
 
 
 echo '<!DOCTYPE html>

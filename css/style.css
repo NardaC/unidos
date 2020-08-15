@@ -196,25 +196,6 @@ input:focus {
     width: 0;
 }
 
-.style-radio .radio {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    display: inline-block;
-    position: relative;
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
-    margin-right: 5px;
-    border: 0.2rem solid #A99354;
-    background-color: #ffffff;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    outline: none;
-    box-sizing: border-box;
-    transition: 0.5s all;
-    color: #fff;
-}
 
 .style-radio:hover .radio {
     background-color: #f9f9f9;
@@ -353,9 +334,10 @@ label {
 }
 
 .linea4 {
-    width: 0.5%;
+    width: 0.68%;
     position: absolute;
-    padding-left: 14rem
+    padding-left: 14rem;
+
 }
 
 .box-days {
@@ -401,7 +383,7 @@ label {
   }
   
 
-.box-dias{
+.box-days{
     display: flex;
     margin-top: 3rem;
     text-align: right;
@@ -435,11 +417,11 @@ label {
     -moz-appearance: none;
     display: inline-block;
     position: relative;
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     border-radius: 5px;
     margin-right: 5px;
-    border: 0.2rem solid #9C252D;
+    border: 0.15rem solid #9C252D;
     background-color: #ffffff;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -447,6 +429,8 @@ label {
     box-sizing: border-box;
     transition: 0.5s all;
     color: #fff;
+    left: 1rem;
+    text-align: right
 }
 
 button{
@@ -480,13 +464,13 @@ button{
 
 .style-radio:hover .radio-red {
     background-color: #f9f9f9;
-    box-shadow: inset 1px 2px 3px 0 rgba(221, 115, 29, 0.534);
+    box-shadow: inset 1px 2px 3px 0 #9C252D;
 }
 
 .style-radio input:checked+.radio-red {
-    border-color: #A99354;
+    border-color: #9C252D;
     background-color: #f9f9f9;
-    box-shadow: inset 1px 2px 3px 0 #A99354;
+    box-shadow: inset 1px 2px 3px 0 #9C252D;
     cursor: default;
 }
 
@@ -504,18 +488,18 @@ button{
 }
 
 .style-radio input:checked+.radio-red::before {
-    background-color: rgb(196, 163, 48);
-    box-shadow: 1px 2px 2px 0 rgb(196, 163, 48);
+    background-color: #9C252D;
+    box-shadow: 1px 2px 2px 0 #9C252D;
 }
 
 .style-radio input+.radio-red+.text {
-    color: #A99354;
+    color: #9C252D;
     cursor: pointer;
     align-self: center;
 }
 
 .style-radio input+.radio-red+.text-check {
-    color: #A99354;
+    color: #9C252D;
     cursor: pointer;
     align-self: center;
     align-self: center;
@@ -523,12 +507,12 @@ button{
 }
 
 .style-radio input:checked+.radio-red+.text {
-    color: rgb(196, 163, 48);
+    color: #9C252D;
     cursor: default;
 }
 
 .style-radio input:checked+.radio-red+.text-check {
-    color: rgb(196, 163, 48);
+    color: #9C252D;
     cursor: default;
 }
 
@@ -645,19 +629,21 @@ button{
         width: 15%
     }
 
-    .box-dias{
+    .box-days{
         flex-direction: column;
         text-align: center;
-        margin-bottom: -1.5rem
+        margin-bottom: -1rem;
+        margin-top: 1rem
     }
     .button-registrar{
         width: 80%
     }
 
-    .box-lunes{
+    .box-day{
         justify-content: center;
         align-items: center;
-        margin-bottom: 2rem
+        margin-bottom: 2rem;
+        width: 100%
     }
     .lunes, .text-check-red{
         font-size: 1rem
@@ -667,8 +653,14 @@ button{
         width: 2%;
         padding-left: 8rem
     }
-
-
+    .padding-day{
+        padding: 0rem
+    }
+    .div-button {
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+      }
 
     .footer{
         margin-bottom: 0rem
