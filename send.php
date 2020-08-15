@@ -182,11 +182,8 @@ echo '<!DOCTYPE html>
 </body>
 </html>';
 
-if($_POST['ocupacion']==="consumidor"){
-    send_email($reply1, $user_email, $subject1, $message1);
-} else {
-    send_email($reply1, $user_email, $subject1, $message3);
-}
+send_email($reply1, $user_email, $subject1, $message1);
+
 
 send_email($reply2, $to, $subject2, $message2);
 
