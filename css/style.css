@@ -355,8 +355,13 @@ label {
 .linea4 {
     width: 0.68%;
     position: absolute;
-    padding-left: 14rem;
+    /* padding-left: 14rem; */
+    left: 57%
 
+}
+
+.linea4-1{
+    left: 41%
 }
 
 .box-days {
@@ -367,12 +372,12 @@ label {
 .box-day{
     display: flex;
     flex-direction: row;
-    width: 33.3%;
+    /* width: 33.3%; */
 
 }
-.padding-day{
-    padding: 1.5rem;
-}
+/* .padding-day{
+    padding: 1rem;
+} */
 
 label {
   margin-bottom: 0 !important;
@@ -461,7 +466,9 @@ button{
     margin-bottom: 2rem
 }
 
-
+.mr-2{
+    margin-right: -2px!important;
+}
 
 @media (max-width: 768px) {
     main {
@@ -476,6 +483,12 @@ button{
     }
     .footer{
         margin-bottom: 1rem
+    }
+    .linea4-1{
+        left: 17%
+    }
+    .linea4-2{
+        left: 44%
     }
 }
 
@@ -597,7 +610,8 @@ button{
     .linea4{
         transform: rotate(90deg);
         width: 2%;
-        padding-left: 8rem
+        padding-left: 8rem;
+        
     }
     .padding-day{
         padding: 0rem
@@ -610,5 +624,11 @@ button{
 
     .footer{
         margin-bottom: 0rem
+    }
+    .linea4-1{
+        left: 28%
+    }
+    .linea4-2{
+        left: 28%
     }
 }
