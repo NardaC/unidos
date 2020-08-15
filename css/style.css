@@ -353,9 +353,10 @@ label {
 }
 
 .linea4 {
-    width: 0.5%;
+    width: 0.68%;
     position: absolute;
-    padding-left: 14rem
+    padding-left: 14rem;
+
 }
 
 .box-days {
@@ -435,11 +436,11 @@ label {
     -moz-appearance: none;
     display: inline-block;
     position: relative;
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     border-radius: 5px;
     margin-right: 5px;
-    border: 0.2rem solid #9C252D;
+    border: 0.15rem solid #9C252D;
     background-color: #ffffff;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -447,6 +448,8 @@ label {
     box-sizing: border-box;
     transition: 0.5s all;
     color: #fff;
+    left: 1rem;
+    text-align: right
 }
 
 button{
