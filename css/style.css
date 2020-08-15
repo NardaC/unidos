@@ -53,5 +53,48 @@ figure, img{
     margin: 0 auto;
     display: block;
     margin-top: 2.5rem;
-    padding-bottom: 2.5rem
+}
+
+.ponente{
+    width: 17.01rem;
+    height: auto;
+}
+.ponente img{
+    width: 100%
+}
+.box-ponente{
+    display: flex
+}
+.p-nombre{
+    font-size: 1.77rem;
+    color: #A99354;
+    font-family: "hudson";
+    line-height: 2rem;
+    text-align: right
+}
+
+.p-gerente{
+    font-size: 1.21rem;
+    color: #9C252D;
+    font-family: "hudson";
+    text-align: right
+}
+
+.linea2{
+    width: 90%;
+    margin-left: 5.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+
+.fundador{
+    font-family: "hudson";
+    color: #A99354;
+    font-size: 2.05rem;
+    line-height: 2.38rem;
+    padding-left: 5.5rem
+    
+}
+.text-fundador{
+    width: 28.20rem;
 }
