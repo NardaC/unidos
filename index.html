@@ -1,103 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta property="og:title" content="JUNTOS EN ESTA NUEVA ERA" />
-    <meta property="og:description"
-        content="Con una coyuntura que sigue cambiando día a día es importante contar con información de fuentes confiables para preparar una estrategia ganadora." />
+    <meta
+      property="og:description"
+      content="Con una coyuntura que sigue cambiando día a día es importante contar con información de fuentes confiables para preparar una estrategia ganadora."
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Protocolos de reactivación - unidos en la mesa</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <figure>
-            <img src="/img/LANDING-UELM_BANNER 1.png" alt="">
+      <figure>
+        <img src="/img/LANDING-UELM_BANNER 1.png" alt="" />
+      </figure>
+      <div class="box-text">
+        <p class="p-red">
+          Con una coyuntura que sigue cambiando día a día es importante contar
+          con información de fuentes confiables para preparar una estrategia
+          ganadora.
+        </p>
+        <p class="p-red otter">
+          Sé parte de un evento digital enfocado a dueños de bares y
+          restaurantes, totalmente gratuito y con expertos certificados que
+          responderán las dudas que tengas para poder implementar un plan de
+          apertura exitoso.
+        </p>
+      </div>
+      <img src="./img/linea1.svg" alt="" class="linea1" />
+      <div class="box-text box-ponente">
+        <figure class="ponente">
+          <img src="./img/FOTO_PONENTE 1.png" alt="" />
         </figure>
-        <div class="box-text">
-            <p class="p-red">
-                Con una coyuntura que sigue cambiando día a día es importante contar con información de fuentes confiables para preparar una estrategia ganadora.
-            </p>
-            <p class="p-red otter">
-                Sé parte de un evento digital enfocado a dueños de bares y restaurantes, totalmente gratuito y con expertos certificados que responderán las dudas que tengas para poder implementar un plan de apertura exitoso.
-            </p>
+        <div class="text-fundador">
+          <p class="p-nombre">Fernando Gonzalez Medrano</p>
+          <p class="p-gerente">Gerente de inocuidad y Certificaciones</p>
+
+          <img src="./img/linea2.svg" alt="" class="linea2" />
+          <p class="fundador">
+            Fundador Grupo LIDERA Director de educación y cultura del patronato
+            gastronómico del Perú.
+          </p>
         </div>
-        <img src="./img/linea1.svg" alt="" class="linea1">
-        <div class="box-text box-ponente">
-            <figure class="ponente">
-                <img src="./img/FOTO_PONENTE 1.png" alt="">
-            </figure>
-            <div class="text-fundador">
-                <p class="p-nombre">Fernando Gonzalez Medrano</p>
-                <p class="p-gerente">Gerente de inocuidad y Certificaciones</p>
-            
-            <img src="./img/linea2.svg" alt="" class="linea2">
-            <p class="fundador">
-                Fundador Grupo LIDERA Director de educación y cultura del patronato gastronómico del Perú.
-            </p>
+      </div>
+      <div class="box-text">
+        <form
+          action="send.php"
+          class="formulario"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class=""
+        >
+          <div class="fade-in">
+            <div class="box-input">
+              <input
+                type="text"
+                value=""
+                name="name"
+                class="input-style w-100"
+                id="name"
+                placeholder="NOMBRES Y APELLIDOS"
+                required
+                autofocus
+              />
+              <input
+                type="number"
+                value=""
+                name="edad"
+                class="input-style  input-edad w-100"
+                id="edad"
+                placeholder="EDAD"
+                required
+              />
+
+              <div class="row  box-check-soy">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 letra-soy">
+                  ERES CLIENTE BACKUS
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                  <label class="style-radio">
+                    <input type="radio" name="sexo" value="FEMENINO" required />
+                    <span class="radio">.</span>
+                    <span class="text-sexo">SI</span>
+                  </label>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                  <label class="style-radio">
+                    <input
+                      type="radio"
+                      name="sexo"
+                      value="masculino"
+                      required
+                    />
+                    <span class="radio">.</span>
+                    <span class="text-sexo">NO</span>
+                  </label>
+                </div>
+              </div>
+              <input
+                type="email"
+                value=""
+                name="email"
+                class="input-style w-100"
+                id="email"
+                placeholder="EMAIL"
+                required
+              />
+              <input
+                type="tel"
+                value=""
+                name="telefono"
+                class="input-style w-100"
+                id="telefono"
+                placeholder="TELÉFONO"
+                required
+              />
             </div>
-        </div>
-        <div class="box-text">
-            <form action="send.php" class="formulario"  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-            class="">
-            <div class="fade-in">
-                    <div class="box-input">
-                                <input type="text" value="" name="name" class="input-style w-100" id="name"
-                                    placeholder="NOMBRES Y APELLIDOS" required autofocus />
-                                <input type="number" value="" name="edad" class="input-style  input-edad w-100" id="edad"
-                                    placeholder="EDAD" required />
-
-
-                        <div class="row  box-check-soy">
-                         
-                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 letra-soy">
-                                ERES CLIENTE BACKUS
-                            </div>
-                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                <label class="style-radio">
-                                    <input
-                                      type="radio"
-                                      name="sexo"
-                                      value="FEMENINO"
-                                      required
-                                    />
-                                    <span class="radio">.</span>
-                                    <span class="text-sexo">SI</span>
-                                  </label>
-                            </div>
-                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                                <label class="style-radio">
-                                    <input
-                                      type="radio"
-                                      name="sexo"
-                                      value="masculino"
-                                      required
-                                    />
-                                    <span class="radio">.</span>
-                                    <span class="text-sexo">NO</span>
-                                   </label>
-                            </div>
-                         
-                      </div>
-                            <input type="email" value="" name="email" class="input-style w-100" id="email"
-                                placeholder="EMAIL" required />
-                            <input type="tel" value="" name="telefono" class="input-style w-100" id="telefono"
-                                placeholder="TELÉFONO" required />
-
-                    </div>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div class="div-button ">
-                        <button type="submit" name="subscribe" id="mc-embedded-subscribe"
-                            class="button-registrar">REGISTRAR</button>
-                    </div>
-
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div class="div-button ">
+              <button
+                type="submit"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="button-registrar"
+              >
+                REGISTRAR
+              </button>
             </div>
+          </div>
         </form>
+        <div class="box-selecciona">
+            <img src="./img/linea3.svg" alt="" class="linea3">
+            <p class="p-selecciona">SELECCIONA LA FECHA Y HORA</p>
+            <img src="./img/linea3.svg" alt="" class="linea3">
         </div>
-        
+
+      </div>
     </main>
-    
-</body>
+  </body>
 </html>
