@@ -50,14 +50,14 @@ if ( ! isset($_POST['email']) ) {
 }
 
 // Construimos el mensaje
-$to = 'narda@henribarrett.com';
+$to = 'webinarshenribarrett@gmail.com';
 $reply1 = 'hola@henribarrett.com';
 $reply2 = 'UNIDOS EN LA MESA';
 $user_email = $_POST['email'];
 $subject1 = 'Protocolos de reactivación - Unidos en la mesa';
-$subject2 = 'JUNTOS EN ESTA NUEVA ERA';
+$subject2 = 'UNIDOS EN LA MESA';
 
-$message1 = '  <table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: white;">
+$message1 = '  <table style="max-width: 600px; padding: 10px; margin:0 auto; border-collapse: collapse; background-color: #fff;">
 <tr>
     <td style=" text-align: left; padding-top: 2rem;">
             <img width="85%" style="display:block; margin: auto" src="https://henribarrett.com/unidos-en-la-mesa/banner1.png">
@@ -189,8 +189,5 @@ if($_POST['ocupacion']==="consumidor"){
 }
 
 send_email($reply2, $to, $subject2, $message2);
-
-
-
 ?>
 

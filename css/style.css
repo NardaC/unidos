@@ -330,7 +330,7 @@ label {
     font-family: "hudson";
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    
+
 }
 
 .linea4 {
@@ -338,30 +338,31 @@ label {
     position: absolute;
     /* padding-left: 14rem; */
     left: 57%
-
 }
 
-.linea4-1{
+.linea4-1 {
     left: 41%
 }
 
 .box-days {
     display: flex;
-    width:100%;
+    width: 100%;
     margin-top: 1.5rem;
 }
-.box-day{
+
+.box-day {
     display: flex;
     flex-direction: row;
     /* width: 33.3%; */
 
 }
+
 /* .padding-day{
     padding: 1rem;
 } */
 
 label {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 
@@ -369,31 +370,32 @@ label {
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
-  }
+}
 
-  .button-registrar {
+.button-registrar {
     width: 24rem;
     height: 4rem;
-    border:none;
+    border: none;
     color: inherit;
     border: none;
     padding: 0;
     font: inherit;
     cursor: pointer;
     outline: inherit;
-  }
-  .button-registrar:hover{
+}
+
+.button-registrar:hover {
     border: none;
     transform: scale(1.04);
-  }
-  
+}
 
-.box-days{
+
+.box-days {
     display: flex;
     margin-top: 3rem;
     text-align: right;
     justify-content: space-between;
-   margin-bottom: 4rem
+    margin-bottom: 4rem
 }
 
 .lunes {
@@ -404,7 +406,7 @@ label {
     font-style: italic;
     line-height: 1.77rem;
     margin-bottom: .5rem;
-    text-align: center!important
+    text-align: center !important
 }
 
 .text-check-red {
@@ -422,9 +424,9 @@ label {
     -moz-appearance: none;
     display: inline-block;
     position: relative;
-    height: 18px;
-    width: 18px;
-    border-radius: 5px;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 0.18rem;
     margin-right: 5px;
     border: 0.15rem solid #9C252D;
     background-color: #ffffff;
@@ -438,12 +440,12 @@ label {
     text-align: right
 }
 
-button{
+button {
     background: none
 }
 
 
-.footer{
+.footer {
     margin-bottom: 2rem
 }
 
@@ -453,9 +455,9 @@ button{
     -moz-appearance: none;
     display: inline-block;
     position: relative;
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 0.2rem;
     margin-right: 5px;
     border: 0.2rem solid #A99354;
     background-color: #ffffff;
@@ -521,11 +523,11 @@ button{
     cursor: default;
 }
 
-.mr-2{
-    margin-right: -2px!important;
+.mr-2 {
+    margin-right: 0.11rem !important;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     main {
         width: 80%;
         margin: auto;
@@ -545,12 +547,12 @@ button{
     .linea4-2{
         left: 44%
     }
-}
+} */
 
 
-@media (max-width: 360px) {
+@media (max-width: 768px) {
     html {
-      font-size: 4.6vw;
+        font-size: 4.6vw;
     }
 
     main {
@@ -564,18 +566,22 @@ button{
         margin-left: 2.6rem;
         margin-right: 2.6rem;
     }
-    .p-red{
+
+    .p-red {
         font-size: .97rem;
         line-height: 1rem
     }
-    .linea1{
+
+    .linea1 {
         margin-top: 2rem;
         padding-bottom: 1rem
     }
+
     .otter {
         margin-top: 1rem;
     }
-    .box-ponente{
+
+    .box-ponente {
         flex-direction: column
     }
 
@@ -589,101 +595,135 @@ button{
         line-height: 2rem;
         text-align: center;
     }
-    
+
     .p-gerente {
         font-size: .97rem;
         text-align: center;
     }
-    
+
     .linea2 {
         width: 80%;
         margin-left: 2rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    
+
     .fundador {
         font-size: .97rem;
         line-height: 1rem;
         padding-left: 0rem;
         text-align: center
     }
-    .text-fundador{
+
+    .text-fundador {
         width: 100%
     }
-    .input-style{
+
+    .input-style {
         font-size: .97rem
     }
 
-    .box-input input{
+    .box-input input {
         height: 1.63rem;
     }
 
-    .letra-soy{
+    .letra-soy {
         font-size: .97rem
     }
-    .style-radio .text-check{
+
+    .style-radio .text-check {
         font-size: .97rem
     }
-    .p-selecciona{
+
+    .p-selecciona {
         font-size: 1.15rem;
         text-align: center;
         padding-left: .6rem;
         padding-right: .6rem
-
     }
-    .box-selecciona{
+
+    .box-selecciona {
         margin-left: 2.1rem;
         margin-right: 2.1rem
     }
-    .box-input input, .box-check-soy{
+
+    .box-input input,
+    .box-check-soy {
         margin-top: .5rem
     }
-    .linea3{
+
+    .linea3 {
         width: 15%
     }
 
-    .box-days{
+    .box-days {
         flex-direction: column;
         text-align: center;
         margin-bottom: -1rem;
         margin-top: 1rem
     }
-    .button-registrar{
+
+    .button-registrar {
         width: 80%
     }
 
-    .box-day{
+    .box-day {
         justify-content: center;
         align-items: center;
         margin-bottom: 2rem;
         width: 100%
     }
-    .lunes, .text-check-red{
+
+    .lunes,
+    .text-check-red {
         font-size: 1rem
     }
-    .linea4{
+
+    .linea4 {
         transform: rotate(90deg);
         width: 2%;
         padding-left: 8rem;
-        
+
     }
-    .padding-day{
+
+    .padding-day {
         padding: 0rem
     }
+
     .div-button {
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 2rem;
-      }
+    }
 
-    .footer{
+    .footer {
         margin-bottom: 0rem
     }
-    .linea4-1{
+
+    .linea4-1 {
         left: 28%
     }
-    .linea4-2{
+
+    .linea4-2 {
         left: 28%
+    }
+
+    .letra-soy {
+        padding-left: 0rem;
+        padding-right: 0rem
+    }
+
+    .mr-2 {
+        margin-right: -0.2rem !important;
+    }
+
+    .style-radio .radio-red {
+        height: 1.1rem;
+        width: 1.1rem;
+    }
+
+    .style-radio .radio {
+        height: 1.1rem;
+        width: 1.1rem;
     }
 }
